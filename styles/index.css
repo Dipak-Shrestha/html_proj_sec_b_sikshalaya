@@ -1,0 +1,47 @@
+/* universal selector */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* descendent selector */
+.navbar img{
+    height: 60px;
+    width: 60px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+}
+.navbar .menu-container{
+    display: flex;
+    gap: 20px;
+}
+.main{
+    background-image: url("../assets/background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.search-bar{
+    display: flex;
+}
+.search-bar input{
+    border: 1px solid orangered;
+    padding: 8px 5px;
+    /* border-radius: top-left top-right bottom-right bottom-left */
+    border-radius: 8px 0px 0px 8px;
+    margin: 0;
+}
+.search-bar button{
+    background-color: orangered;
+    color: whitesmoke;
+    padding: 8px 5px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    margin: 0;
+}
